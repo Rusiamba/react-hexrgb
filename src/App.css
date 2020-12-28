@@ -1,0 +1,32 @@
+body, #root {
+  height: 100vh;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background: whitesmoke;
+}
+
+.input, .rgb {
+  width: 150px;
+  height: 40px;
+  border: none;
+  outline: none;
+  font-weight: normal;
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+  margin-right: 10px;
+}
+
+.rgb {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid white;
+}
